@@ -241,7 +241,7 @@ namespace WiiDLCManagerWinForms
 
         private void testUpdateButton_Click(object sender, EventArgs e)
         {
-            appek.UpdateAppFile(false);
+            appek.UpdateAppFile();
         }
 
         private void addFileTestButton_Click(object sender, EventArgs e)
