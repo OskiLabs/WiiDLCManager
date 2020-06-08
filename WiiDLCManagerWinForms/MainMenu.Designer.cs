@@ -63,6 +63,7 @@
             this.songVizPictureBox = new System.Windows.Forms.PictureBox();
             this.tabsControl = new System.Windows.Forms.TabControl();
             this.songsPage = new System.Windows.Forms.TabPage();
+            this.testButton = new System.Windows.Forms.Button();
             this.packsPage = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
             this.songsPacksListBox = new System.Windows.Forms.ListBox();
@@ -75,6 +76,17 @@
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.packsGridView = new System.Windows.Forms.DataGridView();
             this.optionsPage = new System.Windows.Forms.TabPage();
+            this.testAddFolderButton = new System.Windows.Forms.Button();
+            this.testUpdateButton = new System.Windows.Forms.Button();
+            this.addFileTestButton = new System.Windows.Forms.Button();
+            this.testDeleteButton = new System.Windows.Forms.Button();
+            this.testDtaButton = new System.Windows.Forms.Button();
+            this.unpackNodeButton = new System.Windows.Forms.Button();
+            this.testTagBox = new System.Windows.Forms.TextBox();
+            this.testFolderButton = new System.Windows.Forms.Button();
+            this.testLoadButton = new System.Windows.Forms.Button();
+            this.packTreeView = new System.Windows.Forms.TreeView();
+            this.testTreeButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.songGridView)).BeginInit();
             this.songVizPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.harmDiffPictureBox)).BeginInit();
@@ -106,6 +118,7 @@
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.packsGridView)).BeginInit();
+            this.optionsPage.SuspendLayout();
             this.SuspendLayout();
             // 
             // songGridView
@@ -565,6 +578,7 @@
             // songsPage
             // 
             this.songsPage.BackColor = System.Drawing.Color.Transparent;
+            this.songsPage.Controls.Add(this.testButton);
             this.songsPage.Controls.Add(this.songGridView);
             this.songsPage.Controls.Add(this.songVizPanel);
             this.songsPage.Location = new System.Drawing.Point(4, 25);
@@ -573,6 +587,16 @@
             this.songsPage.Size = new System.Drawing.Size(1270, 687);
             this.songsPage.TabIndex = 0;
             this.songsPage.Text = "Songs";
+            // 
+            // testButton
+            // 
+            this.testButton.Location = new System.Drawing.Point(6, 3);
+            this.testButton.Name = "testButton";
+            this.testButton.Size = new System.Drawing.Size(74, 56);
+            this.testButton.TabIndex = 5;
+            this.testButton.Text = "Załaduj Song\'a";
+            this.testButton.UseVisualStyleBackColor = true;
+            this.testButton.Click += new System.EventHandler(this.testButton_Click);
             // 
             // packsPage
             // 
@@ -727,6 +751,17 @@
             // 
             // optionsPage
             // 
+            this.optionsPage.Controls.Add(this.testTreeButton);
+            this.optionsPage.Controls.Add(this.testAddFolderButton);
+            this.optionsPage.Controls.Add(this.testUpdateButton);
+            this.optionsPage.Controls.Add(this.addFileTestButton);
+            this.optionsPage.Controls.Add(this.testDeleteButton);
+            this.optionsPage.Controls.Add(this.testDtaButton);
+            this.optionsPage.Controls.Add(this.unpackNodeButton);
+            this.optionsPage.Controls.Add(this.testTagBox);
+            this.optionsPage.Controls.Add(this.testFolderButton);
+            this.optionsPage.Controls.Add(this.testLoadButton);
+            this.optionsPage.Controls.Add(this.packTreeView);
             this.optionsPage.Location = new System.Drawing.Point(4, 25);
             this.optionsPage.Name = "optionsPage";
             this.optionsPage.Padding = new System.Windows.Forms.Padding(3);
@@ -734,6 +769,114 @@
             this.optionsPage.TabIndex = 2;
             this.optionsPage.Text = "Options";
             this.optionsPage.UseVisualStyleBackColor = true;
+            // 
+            // testAddFolderButton
+            // 
+            this.testAddFolderButton.Location = new System.Drawing.Point(149, 353);
+            this.testAddFolderButton.Name = "testAddFolderButton";
+            this.testAddFolderButton.Size = new System.Drawing.Size(105, 58);
+            this.testAddFolderButton.TabIndex = 9;
+            this.testAddFolderButton.Text = "Add Folder";
+            this.testAddFolderButton.UseVisualStyleBackColor = true;
+            this.testAddFolderButton.Click += new System.EventHandler(this.testAddFolderButton_Click);
+            // 
+            // testUpdateButton
+            // 
+            this.testUpdateButton.Location = new System.Drawing.Point(42, 417);
+            this.testUpdateButton.Name = "testUpdateButton";
+            this.testUpdateButton.Size = new System.Drawing.Size(101, 58);
+            this.testUpdateButton.TabIndex = 8;
+            this.testUpdateButton.Text = "Update App File";
+            this.testUpdateButton.UseVisualStyleBackColor = true;
+            this.testUpdateButton.Click += new System.EventHandler(this.testUpdateButton_Click);
+            // 
+            // addFileTestButton
+            // 
+            this.addFileTestButton.Location = new System.Drawing.Point(42, 353);
+            this.addFileTestButton.Name = "addFileTestButton";
+            this.addFileTestButton.Size = new System.Drawing.Size(101, 58);
+            this.addFileTestButton.TabIndex = 7;
+            this.addFileTestButton.Text = "Add File";
+            this.addFileTestButton.UseVisualStyleBackColor = true;
+            this.addFileTestButton.Click += new System.EventHandler(this.addFileTestButton_Click);
+            // 
+            // testDeleteButton
+            // 
+            this.testDeleteButton.Location = new System.Drawing.Point(309, 353);
+            this.testDeleteButton.Name = "testDeleteButton";
+            this.testDeleteButton.Size = new System.Drawing.Size(70, 58);
+            this.testDeleteButton.TabIndex = 6;
+            this.testDeleteButton.Text = "Delete Node";
+            this.testDeleteButton.UseVisualStyleBackColor = true;
+            this.testDeleteButton.Click += new System.EventHandler(this.testDeleteButton_Click);
+            // 
+            // testDtaButton
+            // 
+            this.testDtaButton.Enabled = false;
+            this.testDtaButton.Location = new System.Drawing.Point(406, 293);
+            this.testDtaButton.Name = "testDtaButton";
+            this.testDtaButton.Size = new System.Drawing.Size(113, 54);
+            this.testDtaButton.TabIndex = 5;
+            this.testDtaButton.Text = "Unpack songs.dta";
+            this.testDtaButton.UseVisualStyleBackColor = true;
+            this.testDtaButton.Click += new System.EventHandler(this.testDtaButton_Click);
+            // 
+            // unpackNodeButton
+            // 
+            this.unpackNodeButton.Enabled = false;
+            this.unpackNodeButton.Location = new System.Drawing.Point(406, 257);
+            this.unpackNodeButton.Name = "unpackNodeButton";
+            this.unpackNodeButton.Size = new System.Drawing.Size(113, 30);
+            this.unpackNodeButton.TabIndex = 4;
+            this.unpackNodeButton.Text = "Unpack Node";
+            this.unpackNodeButton.UseVisualStyleBackColor = true;
+            this.unpackNodeButton.Click += new System.EventHandler(this.unpackNodeButton_Click);
+            // 
+            // testTagBox
+            // 
+            this.testTagBox.Location = new System.Drawing.Point(406, 207);
+            this.testTagBox.Name = "testTagBox";
+            this.testTagBox.Size = new System.Drawing.Size(113, 22);
+            this.testTagBox.TabIndex = 3;
+            // 
+            // testFolderButton
+            // 
+            this.testFolderButton.Location = new System.Drawing.Point(406, 121);
+            this.testFolderButton.Name = "testFolderButton";
+            this.testFolderButton.Size = new System.Drawing.Size(113, 66);
+            this.testFolderButton.TabIndex = 2;
+            this.testFolderButton.Text = "Load Folder";
+            this.testFolderButton.UseVisualStyleBackColor = true;
+            this.testFolderButton.Click += new System.EventHandler(this.testFolderButton_Click);
+            // 
+            // testLoadButton
+            // 
+            this.testLoadButton.Location = new System.Drawing.Point(406, 33);
+            this.testLoadButton.Name = "testLoadButton";
+            this.testLoadButton.Size = new System.Drawing.Size(113, 70);
+            this.testLoadButton.TabIndex = 1;
+            this.testLoadButton.Text = "Load Pack";
+            this.testLoadButton.UseVisualStyleBackColor = true;
+            this.testLoadButton.Click += new System.EventHandler(this.testLoadButton_Click);
+            // 
+            // packTreeView
+            // 
+            this.packTreeView.Location = new System.Drawing.Point(42, 33);
+            this.packTreeView.Name = "packTreeView";
+            this.packTreeView.Size = new System.Drawing.Size(337, 314);
+            this.packTreeView.TabIndex = 0;
+            this.packTreeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.packTreeView_AfterSelect);
+            this.packTreeView.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.packTreeView_NodeMouseClick);
+            // 
+            // testTreeButton
+            // 
+            this.testTreeButton.Location = new System.Drawing.Point(149, 417);
+            this.testTreeButton.Name = "testTreeButton";
+            this.testTreeButton.Size = new System.Drawing.Size(148, 58);
+            this.testTreeButton.TabIndex = 10;
+            this.testTreeButton.Text = "Get String Tree";
+            this.testTreeButton.UseVisualStyleBackColor = true;
+            this.testTreeButton.Click += new System.EventHandler(this.testTreeButton_Click);
             // 
             // MainMenu
             // 
@@ -779,6 +922,8 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.packsGridView)).EndInit();
+            this.optionsPage.ResumeLayout(false);
+            this.optionsPage.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -832,6 +977,18 @@
         private System.Windows.Forms.Label genPacksLabel;
         private System.Windows.Forms.Label namePacksLabel;
         private System.Windows.Forms.PictureBox pictureBox23;
+        private System.Windows.Forms.Button testButton;
+        private System.Windows.Forms.Button testFolderButton;
+        private System.Windows.Forms.Button testLoadButton;
+        private System.Windows.Forms.TreeView packTreeView;
+        private System.Windows.Forms.TextBox testTagBox;
+        private System.Windows.Forms.Button unpackNodeButton;
+        private System.Windows.Forms.Button testDtaButton;
+        private System.Windows.Forms.Button addFileTestButton;
+        private System.Windows.Forms.Button testDeleteButton;
+        private System.Windows.Forms.Button testUpdateButton;
+        private System.Windows.Forms.Button testAddFolderButton;
+        private System.Windows.Forms.Button testTreeButton;
     }
 }
 
