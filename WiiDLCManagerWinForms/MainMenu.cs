@@ -191,8 +191,6 @@ namespace WiiDLCManagerWinForms
                 AppManager appek = new AppManager();
                 appek.LoadFolder(fbd.SelectedPath);
 
-                //appek.Pack(Directory.GetParent(fbd.SelectedPath).FullName + "\\wyn.app");
-                //appek.UpdateTreeView(packTreeView);
                 UpdateTreeView(appek.GetNodesTree(0), 1);
             }
         }
@@ -241,7 +239,7 @@ namespace WiiDLCManagerWinForms
 
         private void testUpdateButton_Click(object sender, EventArgs e)
         {
-            appek.UpdateAppFile();
+            appek.UpdateAppFile(false);
         }
 
         private void addFileTestButton_Click(object sender, EventArgs e)
