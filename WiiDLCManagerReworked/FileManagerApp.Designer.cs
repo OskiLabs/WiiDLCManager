@@ -1,6 +1,6 @@
 ﻿namespace WiiDLCManagerReworked
 {
-    partial class Form1
+    partial class FileManagerApp
     {
         /// <summary>
         /// Wymagana zmienna projektanta.

@@ -10,9 +10,11 @@ using System.Windows.Forms;
 
 namespace WiiDLCManagerReworked
 {
-    public partial class Form1 : Form
+    public partial class FileManagerApp : Form
     {
-        public Form1()
+        private Pack TestPack;
+
+        public FileManagerApp()
         {
             InitializeComponent();
         }
