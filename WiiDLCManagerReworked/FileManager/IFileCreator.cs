@@ -9,7 +9,7 @@ namespace WiiDLCManagerReworked.FileManager
     interface IFileCreator
     {
         FileStruct Load();
-        void Pack(FileStruct packStruct);
-        void Repack();
+        void Create(FileStruct packStruct);
+        void Update();
     }
 }

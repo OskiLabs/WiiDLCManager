@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace WiiDLCManagerReworked.FileManager
 {
-    class AppCreator : IFileCreator
+    class SystemDirCreator : IFileCreator
     {
         public FileStruct Load()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         public void Create(FileStruct packStruct)
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         public void Update()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
     }
 }

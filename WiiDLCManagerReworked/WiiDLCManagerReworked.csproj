@@ -53,6 +53,7 @@
     <Compile Include="FileManager\FileStructExplorer.cs" />
     <Compile Include="FileManager\IFileCreator.cs" />
     <Compile Include="FileManager\FileStruct.cs" />
+    <Compile Include="FileManager\SystemDirCreator.cs" />
     <Compile Include="FileManager\SystemNode.cs" />
     <Compile Include="FileManagerApp.cs">
       <SubType>Form</SubType>
