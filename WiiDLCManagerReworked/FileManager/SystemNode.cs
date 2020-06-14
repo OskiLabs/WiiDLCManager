@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace WiiDLCManagerReworked.FileManager
 {
-    class SystemNode : Node
+    class SystemDirNode : Node
     {
         private int _fullPath;
 
-        public SystemNode()
+        public SystemDirNode()
         {
             throw new System.NotImplementedException();
         }

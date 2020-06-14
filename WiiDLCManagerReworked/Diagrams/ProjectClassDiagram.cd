@@ -47,7 +47,7 @@
       <FileName>FileManager\AppNode.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="WiiDLCManagerReworked.FileManager.SystemNode">
+  <Class Name="WiiDLCManagerReworked.FileManager.SystemDirNode">
     <Position X="9.5" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAQBAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
