@@ -62,6 +62,7 @@
       <DependentUpon>FileManagerApp.cs</DependentUpon>
     </Compile>
     <Compile Include="FileManager\Node.cs" />
+    <Compile Include="FileManager\Tools\AppTools.cs" />
     <Compile Include="Pack.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

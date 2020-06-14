@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using WiiDLCManagerReworked.FileManager.Tools;
 
 namespace WiiDLCManagerReworked.FileManager
 {
@@ -11,6 +12,7 @@ namespace WiiDLCManagerReworked.FileManager
         private int _dataOffset;
         private int _size;
         private int _appFilePath;
+        private AppTools Tools;
 
         public AppNode()
         {
