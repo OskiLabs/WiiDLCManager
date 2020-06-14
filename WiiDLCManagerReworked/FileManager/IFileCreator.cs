@@ -11,6 +11,5 @@ namespace WiiDLCManagerReworked.FileManager
         FileStruct Load();
         void Pack(FileStruct packStruct);
         void Repack();
-        void Unpack();
     }
 }

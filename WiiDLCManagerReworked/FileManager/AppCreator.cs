@@ -22,10 +22,5 @@ namespace WiiDLCManagerReworked.FileManager
         {
             throw new System.NotImplementedException();
         }
-
-        public void Unpack()
-        {
-            throw new System.NotImplementedException();
-        }
     }
 }
