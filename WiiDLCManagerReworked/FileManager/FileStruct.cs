@@ -8,7 +8,7 @@ namespace WiiDLCManagerReworked.FileManager
     public struct FileStruct
     {
         private FileStructExplorer Explorer;
-        private System.Collections.Generic.SortedList<int, WiiDLCManagerReworked.FileManager.Node> _nodes;
+        private System.Collections.Generic.SortedList<int, WiiDLCManagerReworked.FileManager.Node> nodes;
         private string _filename;
         private string _datapath;
     }

@@ -12,7 +12,7 @@ namespace WiiDLCManagerReworked.FileManager
         private int _dataOffset;
         private int _size;
         private int _appFilePath;
-        private AppTools Tools;
+        private AppTools tools;
 
         public AppNode()
         {
