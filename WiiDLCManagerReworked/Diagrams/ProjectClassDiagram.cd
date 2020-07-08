@@ -36,22 +36,22 @@
   <Class Name="WiiDLCManagerReworked.FileManager.Node">
     <Position X="7.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAYAAAAAEAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <HashCode>AAAQIAAAAAAAEQQAAAAEQAQQAAIAAAAAAQAAAAAAAAA=</HashCode>
       <FileName>FileManager\Node.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WiiDLCManagerReworked.FileManager.AppNode">
-    <Position X="7.75" Y="6" Width="1.5" />
+    <Position X="7.75" Y="7.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAEEAAAAAAQAAAAAAAAAAAAAAAAAAQAAAAIIAAAA=</HashCode>
+      <HashCode>AAAAAEEAAAAAAQAAAAAAAAAAAABAAAAAAAAAAIIAAAA=</HashCode>
       <FileName>FileManager\AppNode.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WiiDLCManagerReworked.FileManager.SystemDirNode">
-    <Position X="9.5" Y="6" Width="1.5" />
+    <Position X="10.5" Y="7.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAQBAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>FileManager\SystemNode.cs</FileName>
+      <FileName>FileManager\SystemDirNode.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="WiiDLCManagerReworked.FileManagerApp">
@@ -65,7 +65,7 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="WiiDLCManagerReworked.FileManager.SystemDirCreator">
-    <Position X="9.75" Y="3.75" Width="1.5" />
+    <Position X="11.75" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAgAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
       <FileName>FileManager\SystemDirCreator.cs</FileName>
@@ -75,7 +75,7 @@
   <Struct Name="WiiDLCManagerReworked.FileManager.FileStruct">
     <Position X="5.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAIAABAAAAAAIAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAIAAAAAAAAAIAQAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
       <FileName>FileManager\FileStruct.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -89,5 +89,12 @@
       <FileName>FileManager\IFileCreator.cs</FileName>
     </TypeIdentifier>
   </Interface>
+  <Enum Name="WiiDLCManagerReworked.FileManager.NodeType">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileManager\NodeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

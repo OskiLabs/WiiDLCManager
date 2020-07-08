@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace WiiDLCManagerReworked.FileManager
 {
-    class SystemDirNode : Node
+    public class SystemDirNode : Node
     {
         private int _fullPath;
 
-        public SystemDirNode()
+        public SystemDirNode(string path)
         {
-            throw new System.NotImplementedException();
+            _children = null;
+            _parent = null;
         }
 
         public override byte[] GetNodeByteArray()

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiiDLCManagerWinForms", "Wi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiiDLCManagerReworked", "WiiDLCManagerReworked\WiiDLCManagerReworked.csproj", "{2F4CB01F-506E-4518-A414-C9D97314EC28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiiDLCManager.Tests", "WiiDLCManager.Tests\WiiDLCManager.Tests.csproj", "{3D203431-E319-4597-ACA5-9F56C8B4C6AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2F4CB01F-506E-4518-A414-C9D97314EC28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F4CB01F-506E-4518-A414-C9D97314EC28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F4CB01F-506E-4518-A414-C9D97314EC28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D203431-E319-4597-ACA5-9F56C8B4C6AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D203431-E319-4597-ACA5-9F56C8B4C6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D203431-E319-4597-ACA5-9F56C8B4C6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D203431-E319-4597-ACA5-9F56C8B4C6AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
